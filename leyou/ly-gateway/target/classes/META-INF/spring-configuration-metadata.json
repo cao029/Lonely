@@ -1,0 +1,42 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.leyou.prop.CorsProp",
+      "name": "ly.cors",
+      "type": "com.leyou.prop.CorsProp"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.leyou.prop.CorsProp",
+      "name": "ly.cors.allow-credentials",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.leyou.prop.CorsProp",
+      "name": "ly.cors.allowed-headers",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.leyou.prop.CorsProp",
+      "name": "ly.cors.allowed-methods",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.leyou.prop.CorsProp",
+      "name": "ly.cors.allowed-origins",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.leyou.prop.CorsProp",
+      "name": "ly.cors.filter-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.leyou.prop.CorsProp",
+      "name": "ly.cors.max-age",
+      "type": "java.lang.Long"
+    }
+  ]
+}

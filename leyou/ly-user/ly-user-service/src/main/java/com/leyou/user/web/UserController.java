@@ -15,8 +15,12 @@ import javax.validation.Valid;
 @RestController
 public class UserController {
 
+    private final UserService userService;
+
     @Autowired
-    private UserService userService;
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
 
     @GetMapping("check/{param}/{type}")
     public ResponseEntity<Boolean> checkUserData(
@@ -27,6 +31,7 @@ public class UserController {
         return ResponseEntity.ok(bool);
     }
 
+//    添加注释
     @PostMapping("code")
     public ResponseEntity<Void> sendUserPhone(@RequestParam("phone")String phone){
         userService.sendCode(phone);

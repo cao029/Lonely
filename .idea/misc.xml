@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/leyou/ly-auth-center/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou/ly-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou/ly-common/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou/ly-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou/ly-sms-module/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou/ly-uploads/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou/ly-user/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou/ly-item/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou/ly-registry/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
